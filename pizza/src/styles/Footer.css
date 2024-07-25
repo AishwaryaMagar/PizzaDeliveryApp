@@ -1,0 +1,15 @@
+.footer {
+    padding: 10px; 
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  

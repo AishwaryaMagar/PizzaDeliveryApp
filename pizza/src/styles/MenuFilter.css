@@ -1,0 +1,101 @@
+.menu-div{
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+}
+
+.custom-button-filter-container {
+    display: flex; /* Make the container a flex container */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.custom-button-filter {
+    background: #020202; /* Set the background color */
+    border: none; /* Remove the button border */
+    margin: 5px; /* Add some margin for spacing */
+    color: #ffffff; /* Set the font color to white */
+    text-align: center; /* Center the text inside the button */
+    transition: 0.3s; /* Add a transition for a smooth hover effect on the background color */
+    font-size: 22px; /* Adjust the font size as needed */
+}
+
+.custom-button-filter:hover {
+    background: #cb2929dd; /* Change background color on hover */
+}
+
+#addtocartbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.gotocart-footer{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 10px; /* Adjust padding as needed */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+.gotocart-footer button{
+    font-size: 20px;
+}
+
+.filter-buttons button{
+    width: 120px;
+    height: 40px;
+    border: solid 1px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-category h2{
+    margin-bottom: 0%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.line {
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 400px; /* Adjust the width as needed */
+    border-bottom: 1px solid #000; /* Change the color and style as needed */
+    align-self: center;
+    margin-left: auto;
+    margin-right: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-button-filter-container {
+        flex-direction: column;
+    }
+
+    .custom-button-filter {
+        width: 100%; 
+    }
+
+    #addtocartbutton {
+        position: static;
+        margin-top: 10px; 
+    }
+    
+    .gotocart-footer {
+        height: auto; 
+    }
+
+    .filter-buttons button {
+        width: 100%; 
+        margin-bottom: 5px; 
+    }
+
+    .line{
+        transform: translateX(-50%);
+        width: 250px;
+        margin-right: 30px;
+    }
+}
+

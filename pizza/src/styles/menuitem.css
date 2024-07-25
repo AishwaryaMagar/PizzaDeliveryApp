@@ -1,0 +1,119 @@
+.slidecontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.slidecontainer input[type=range]{
+    -webkit-appearance: none;
+    background: #e6e4e4;
+    margin: 0.2rem;
+    height: 10px;
+    width: 170px;
+    outline: none;
+    border-radius: 25px;
+}
+
+.slidecontainer label{
+    margin: 0.2rem;
+}
+
+.slidecontainer input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    /* background: #faf9f9dd; */
+    background: black;
+}
+
+.slidecontainer input[type=range]::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    height: 8px;
+    color: black;
+}
+
+.cart{
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for smooth animation */
+    transform-origin: center bottom; /* Set the origin to the bottom center for the lift effect */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.custom-button {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: auto;
+  background: #020202;
+  border: none;
+  margin-top: 5px;
+  display: block;
+  transition: transform 0.3s; /* Add transition for smooth hover effect */
+}
+  
+.custom-button:hover {
+  background: #cb2929dd; /* Change background color on hover */
+}
+
+.deleteCartIcon{
+  fill: #050404dd;
+}
+
+.deleteCartIcon:hover{
+  fill: #cb2929dd;
+}
+
+.card{
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.idescrip{
+  line-height: 1;
+}
+
+.card-title{
+  margin-bottom: 0%;
+  font-weight: 900;
+}
+
+.item-description{
+  font-size: 12px;
+  line-height: 0.8;
+}
+
+.slidecontainer input[type=range]:hover::-webkit-slider-thumb {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.4);
+}
+
+.slidecontainer input[type=range]:hover::-moz-range-thumb {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.4);
+}
+
+.slidecontainer input[type=range]:hover::-ms-thumb {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.4);
+}
+
+.slideBars{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item-price{
+  display: flex;
+  align-items: center;
+}
+
+.item-price b{
+  font-size: 25px;
+  font-weight: 800;
+}

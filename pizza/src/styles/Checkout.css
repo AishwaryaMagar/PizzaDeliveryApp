@@ -1,0 +1,160 @@
+.backgrey{
+    background: rgb(240, 238, 238);
+    padding: 20px;
+    min-height: 100vh;
+}
+.address{
+    background: white;
+}
+.address h2{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.addAddressBtn{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+.addAddressBtn:hover{
+    background-color: #cb2929dd;
+    transform: scale(1.1);
+}
+
+.submitAddressBtn{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 350px;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+.submitAddressBtn:hover{
+    background-color: #cb2929dd;
+    transform: scale(1.05);
+}
+.address h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.addressline{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.addressline input{
+    width: 400px;
+}
+
+.aptzip{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.aptzip input{
+    width: 400px;
+}
+
+.payment{
+    background: white;
+}
+.payment h2{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cardcash input label{
+    width: 30px;
+    height: 15px;
+    margin: 10px;
+}
+
+.carddet{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.carddet input{
+    width: 400px;
+}
+
+.cardnum{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cardnum input{
+    width: 400px;
+}
+
+.address-container label, 
+.address-container input{
+    display: flex;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.address-container {
+    align-items: center;
+    display: inline-flex;
+}
+
+.address-check{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000; /* Black border for the radio button */
+    border-radius: 50%; /* Ensures the button is circular */
+    outline: none;
+    margin-right: 10px; /* Adjust as needed */
+    box-shadow: 0 0 5px 0 #000000;
+}
+
+.address-check:checked {
+    background-color: #000000; /* Black background when radio is checked */
+    box-shadow: 0 0 5px 0 #000000; 
+    border-color: #000000;
+}
+
+.eaddress{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 400px;
+}
+.eaddress input{
+    /* width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    padding-top: 5px; */
+}
+.address-row input{
+    /* margin-left: 400px; */
+  }
+.tdclass input{
+    margin-left: 530px;
+}
+.tdclass2 p{
+    margin-right: 530px;
+
+}
+  

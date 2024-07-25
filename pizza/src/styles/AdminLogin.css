@@ -1,0 +1,204 @@
+.tocenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.tocenter input {
+    border: 1px solid;
+    border-radius: 4px; 
+    padding: 10px;
+    width: auto;
+}
+
+.tocenter button{
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.order-tableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 15px; 
+}
+
+.order-table{
+    border-collapse: separate;
+    border-spacing: 25px; 
+}
+
+.order-table th {
+    padding: 10px; /* Adjust the value to control the space inside each cell */
+    border: 1px solid #ddd; /* Add borders for better visibility */
+}
+
+.order-table tbody tr:hover {
+    background-color: #f2f2f2; /* Change the color to your desired hover color */
+}
+
+.order-tableContainer button{
+    background-color: #000000;
+    color: white;
+    height: 40px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.order-tableContainer button:hover {
+    background-color: #cb2929dd;
+}
+
+.orderdetail-tableContainer{
+    justify-content: center;
+    align-items: center; /* Align items at the top */
+    margin-top: 15px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.orderdetail-tableContainer button{
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+.orderdetail-table{
+    border-collapse: collapse;
+    border-spacing: 25px; 
+    width: 100%;
+}
+
+.orderdetail-table th {
+    padding: 8px;
+    border: 1px solid #ddd; /* Add borders for better visibility */
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+
+.orderdetail-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Adjust text alignment if needed */
+    font-size: 14px; /* Adjust font size if needed */
+}
+
+.orderdetail-table tbody tr:hover {
+    background-color: #f2f2f2; /* Change the color to your desired hover color */
+}
+
+.custom-select-container {
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+}
+  
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+  
+.custom-select {
+    margin-left: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background: no-repeat right center;
+}
+
+.dropdown-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    pointer-events: none;
+}
+
+/* Additional styling to ensure consistency */
+.tocenter button {
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+.adminPanel button{
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+.menu-tableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 15px; 
+    margin-bottom: 80px;
+}
+
+.menu-table{
+    border-collapse: collapse;
+    border-spacing: 25px; 
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.menu-table th {
+    padding: 10px; /* Adjust the value to control the space inside each cell */
+    border: 1px solid #ddd; /* Add borders for better visibility */
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+
+.menu-table tbody tr:hover {
+    background-color: #f2f2f2; /* Change the color to your desired hover color */
+}
+
+.menu-table td{
+    text-align: left;
+    padding: 8px;
+}
+
+.addmenu-btn-container{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 15px; 
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+.addmenu-btn-container button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    height: 50px;
+    font-size: 17px;
+}
+  

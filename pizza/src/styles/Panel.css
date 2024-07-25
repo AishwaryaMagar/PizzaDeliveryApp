@@ -1,0 +1,110 @@
+.center-table {
+    margin: 0 auto; /* Horizontally center the table */
+}
+
+.center-text {
+    text-align: center; /* Center the text within the table cells */
+}
+  
+  /* last minute css */
+  .card {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  .card p {
+    margin-left: 10px;
+  }
+
+  .FAQ
+  {
+    text-align: center;
+    font-size: 23px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20;
+  }
+
+.dropdown {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown select{
+    margin-right: 25px;
+    border: 1px solid;
+    border-radius: 2px; 
+    height: 30px;
+    padding: 2px;
+    width: 150px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.AddMenuItemform {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.AddMenuItemform input{
+    border: 1px solid;
+    border-radius: 2px; 
+    padding: 5px;
+    display: flex;
+    width: 500px;
+}
+
+.AddMenuItemform button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    width: 150px;
+}
+
+.eachinput-foritem{
+    flex-direction: row;
+    display: flex;
+}
+
+.eachinput-foritem label{
+    padding: none;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.eachinput-forContains label{
+    padding: none;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: none !important;
+    margin-left: 15px;
+}
+
+.eachinput-forContains{
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.eachinput-forContains input {
+    width: 20px !important;
+}
+
+.logout-btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.logout-btn:hover{
+    transform: scale(1.02); /* Slightly scale up on hover */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
